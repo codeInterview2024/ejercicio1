@@ -1,0 +1,8 @@
+This application is in charge of processing a file that is generated for each transaction that happen on a commerce (see example named transaction.xml)
+It is currently running on a customer lab which reports back to us the following defect:
+	"the application is not totalizing the sum of the prices of the items included in the transaction correctly."
+
+We ask you to resolve the following tasks:
+1. Fix the issue
+2. Mention any technical debt you see in the code
+3. The customer is analysing to extend the type of items that could be reported in the xml. Our solution is only prepared to handle two types of items. What can we do to accomplish this?

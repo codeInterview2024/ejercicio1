@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariantValueGroupType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="transactionDetails">
+   <TransactionDetails xmlns="http://www.gilbarco.com/schema/fcc/gripps">
+      <FuelItem>
+         <Description>UNL REG 87, UNL PLUS 87</Description>
+         <Quantity>20</Quantity>
+         <Price>20</Price>
+         <UnitPrice>1</UnitPrice>
+         <DispenserNumber>1</DispenserNumber>
+         <ProductCode>001</ProductCode>
+         <DispenserBuffer>1</DispenserBuffer>
+         <PrepayFlag>true</PrepayFlag>
+         <OperatingLevelCode>1</OperatingLevelCode>
+         <ServiceLevelCode>1</ServiceLevelCode>
+         <PriceLevelCode>1</PriceLevelCode>
+         <ServiceLevelName>SELF</ServiceLevelName>
+         <LineNumber>1</LineNumber>
+         <Discount>2</Discount>
+	    </FuelItem>
+      <FuelItem>
+         <Description>Diesel</Description>
+         <Quantity>30</Quantity>
+         <Price>45</Price>
+         <UnitPrice>1.5</UnitPrice>
+         <DispenserNumber>1</DispenserNumber>
+         <ProductCode>001</ProductCode>
+         <DispenserBuffer>1</DispenserBuffer>
+         <PrepayFlag>true</PrepayFlag>
+         <OperatingLevelCode>1</OperatingLevelCode>
+         <ServiceLevelCode>1</ServiceLevelCode>
+         <PriceLevelCode>1</PriceLevelCode>
+         <ServiceLevelName>SELF</ServiceLevelName>
+         <LineNumber>2</LineNumber>
+         <Discount>3</Discount>
+	    </FuelItem>      
+	  <NonFuelItem>
+         <Description>Coke</Description>
+         <Quantity>1</Quantity>
+         <Price>10</Price>
+         <UnitPrice>10</UnitPrice>
+         <ProductCode>400</ProductCode>
+         <ScanCode />
+         <ScanCodeFormat>none</ScanCodeFormat>
+         <ScanCodeModifier>0</ScanCodeModifier>
+         <ScanCodeModifierName>pc</ScanCodeModifierName>
+         <Discountable>true</Discountable>
+         <EntryMethod>manual</EntryMethod>
+         <SellingUnits>1</SellingUnits>
+         <Tax>1</Tax>
+         <Discount>3</Discount>
+         <PLU />
+         <Department>1</Department>
+         <DepartmentDescription>Dept 1</DepartmentDescription>
+         <Status>normal</Status>
+         <LineNumber>3</LineNumber>
+      </NonFuelItem>
+	     <NonFuelItem>
+         <Description>Fries</Description>
+         <Quantity>1</Quantity>
+         <Price>15</Price>
+         <UnitPrice>15</UnitPrice>
+         <ProductCode>401</ProductCode>
+         <Tax>1</Tax>
+         <ScanCode />
+         <ScanCodeFormat>none</ScanCodeFormat>
+         <ScanCodeModifier>0</ScanCodeModifier>
+         <ScanCodeModifierName>pc</ScanCodeModifierName>
+         <Discountable>false</Discountable>
+         <EntryMethod>manual</EntryMethod>
+         <SellingUnits>1</SellingUnits>
+         <PLU />
+         <Department>1</Department>
+         <DepartmentDescription>Dept 1</DepartmentDescription>
+         <Status>normal</Status>
+         <LineNumber>4</LineNumber>
+      </NonFuelItem>      
+   </TransactionDetails>
+</VariantValueGroupType>

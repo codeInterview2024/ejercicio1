@@ -1,0 +1,24 @@
+2023-10-01T09:29:50Z INFO  [US] User session started for user1
+2023-10-01T09:29:55Z INFO  [US] User session started for user2
+2023-10-01T09:30:00Z INFO  [TS] Generated transaction ID: TRANS-1234
+2023-10-01T09:30:00Z INFO  [TS] Initiating transaction for user user1 with amount 50
+2023-10-01T09:30:01Z INFO  [PG] Processing payment for user user1, amount 50
+2023-10-01T09:30:01Z INFO  [API] Sending payment request for user user1, amount 50
+2023-10-01T09:30:02Z INFO  [API] Payment approved for user user1
+2023-10-01T09:30:00Z INFO  [TS] Generated transaction ID: TRANS-5678
+2023-10-01T09:30:00Z INFO  [TS] Initiating transaction for user user2 with amount 150
+2023-10-01T09:30:01Z INFO  [PG] Processing payment for user user2, amount 150
+2023-10-01T09:30:01Z INFO  [API] Sending payment request for user user2, amount 150
+2023-10-01T09:30:02Z INFO  [API] Payment declined for user user2
+2023-10-01T09:30:02Z ERROR [TS] Transaction failed for user user2: Payment declined
+2023-10-01T09:30:03Z ERROR [TS] Error processing transaction for user user2: Payment processing error.
+2023-10-01T09:30:02Z ERROR [NS] Notification message cannot be None.
+2023-10-01T09:30:05Z INFO  [PG] Refunding payment for transaction TRANS-5678
+2023-10-01T09:30:05Z INFO  [API] Sending payment request for user refund_user, amount 0
+2023-10-01T09:30:06Z INFO  [API] Payment declined for user refund_user
+2023-10-01T09:30:06Z INFO  [TS] Refund status for transaction ID TRANS-5678: Payment declined
+2023-10-01T09:30:10Z WARN  [US] User session timeout for user1
+2023-10-01T09:30:15Z INFO  [US] Transaction log updated for user2
+2023-10-01T09:30:20Z ERROR [US] Failed to connect to the database
+2023-10-01T09:30:25Z INFO  [US] User session ended for user2
+2023-10-01T09:30:30Z INFO  [US] User session ended for user1
