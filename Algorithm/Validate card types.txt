@@ -1,0 +1,11 @@
+Two cards are of the same type if and only if they have the same first 6 digits (the prefix number).
+We receive several lists with a bunch of card numbers and we need to validate that each list only have cards of the same type.
+Implement an algorithm to validate card types.
+
+* Choose the programming language you feel more confortable with.
+  You can use any environment. If you like Python, you can use any online interpeter like https://www.programiz.com/python-programming/online-compiler/
+* For testing, use these lists:
+  [9281984328148382148, 928152134132, 9281444423311111111, 9281321321321321]  -> 9281 Common prefix exist but is too short
+  [12314422213213, 12314423213213213, 123144272190392183, 123144202183912, 123144249292929292]  -> 1231442   Ok
+  [1231442, 424, 23, 2999, 99] -> "-" all different card types
+  [9991299292] -> 999129 Ok

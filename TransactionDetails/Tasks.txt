@@ -4,5 +4,5 @@ It is currently running on a customer lab which reports back to us the following
 
 We ask you to resolve the following tasks:
 1. Fix the issue
-2. Mention any technical debt you see in the code
+2. Design and code the required changes for this application to offer a API that: 1. receives the transaction information; 2. returns the total transaction amount
 3. The customer is analysing to extend the type of items that could be reported in the xml. Our solution is only prepared to handle two types of items. What can we do to accomplish this?
